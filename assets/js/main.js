@@ -10,6 +10,9 @@ function updateTime() {
 (function($) {
 
     updateTime();
+    $.get("https://hotchicks.lakey.net/temp.json", function(data) {
+        $('#pitemp').text(data.temp);
+    });
 
     var $window = $(window),
         $body = $('body'),
