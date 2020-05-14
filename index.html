@@ -9,76 +9,84 @@
     <meta name="msapplication-TileImage" content="images/chicken-144-196468.png">
     <meta property="og:title" content="Lakey Acres Chicken Coop Cams" />
     <meta property="og:description" content="Live Cameras from the Lakey Acres Chicken Coop" />
-    <meta property="og:image" content="http://hotchicks.lakey.net/images/bg.jpg" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/chicken-152-196468.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/chicken-144-196468.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/chicken-120-196468.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/chicken-114-196468.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/chicken-72-196468.png">
-    <link rel="apple-touch-icon-precomposed" href="images/chicken-57-196468.png">
+    <meta property="og:image" content="https://hotchicks.lakey.net/images/bg.jpg" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://hotchicks.lakey.net/images/chicken-152-196468.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://hotchicks.lakey.net/images/chicken-144-196468.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://hotchicks.lakey.net/images/chicken-120-196468.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://hotchicks.lakey.net/images/chicken-114-196468.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://hotchicks.lakey.net/images/chicken-72-196468.png">
+    <link rel="apple-touch-icon-precomposed" href="https://hotchicks.lakey.net/images/chicken-57-196468.png">
 
     <link rel="icon" href="images/chicken-32-196468.png" sizes="32x32">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha384-R/oa7KS0iDoHwdh4Gyl3/fU7pgvSCt7oyuQ79pkw+e+bMWD9dzJJa+Zqd+XJS0AD" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="apple-touch-icon-precomposed" href="images/chicken-152-196468.png">
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
-<body class="is-preload">
-    <div id="wrapper" class="fade-in">
-
-        <div id="intro">
-            <h1>Welcome</h1>
-            <p>to Lakey Acres Hot Chicks Cam</p>
-            <ul class="actions">
-                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-right">
+        <a class="navbar-brand" href="#">Lakey Acres Hot Chicks Cam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active" href="https://twitter.com/jeremylakeysr"><span class="fab fa-twitter"></span></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/jeremylakeysr/"><span class="fab fa-facebook-f"></span></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/jeremylakeysr/"><span class="fab fa-instagram"></span></a></li>
             </ul>
         </div>
+    </nav>
+    <main>
+        <article class="container-fluid">
+            <header class="row">
+                <span class="col date-time text-center"></span>
+            </header>
 
-        <header id="header">
-            <a href="#" class="logo">HOT CHICKS</a>
-        </header>
-
-        <nav id="nav">
-            <ul class="links">
-                <li class="active"><a href="index.html">Inside the Coop Night Cam</a></li>
-                <li><a href="external.html">Outside Coop Day Cam</a></li>
-
-            </ul>
-            <ul class="icons">
-                <li><a href="https://twitter.com/jeremylakeysr" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="https://www.facebook.com/jeremylakeysr/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="https://www.instagram.com/jeremylakeysr/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-            </ul>
-        </nav>
-
-        <div id="main">
-            <article class="post featured">
-                <header class="major">
-                    <span class="date-time"></span>
-                </header>
-                <img class="image fit" src="https://hotchicks.lakey.net/video/?action=stream" alt="" />
-            </article>
-        </div>
-
-        <!-- Copyright -->
-        <div id="copyright">
-            <ul>
-                <li>&copy; 2020 Jeremy Lakey, Lakey Acres </li>
-                <li>pi temp: <span id="pitemp"></span></li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-
+            <div id="camCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#camCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#camCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://hotchicks.lakey.net/video/?action=stream" alt="" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Inside Coop</h5>
+                            <p>See HOT CHICK OVULATION inside the coop with NIGHTVISION!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://hotchicks.lakey.net/outdoor/?action=stream" alt="" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Outside Coop</h5>
+                            <p>Watch chickens eat. Inside is where all the magic happens.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#camCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#camCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </article>
+        <footer class="container">
+            <div class="row">
+                <span class="col">&copy; 2020 Jeremy Lakey, Lakey Acres </span>
+                <span class="col">pi temp: <span id="pitemp"></span></span>
+            </div>
+        </footer>
+    </main>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
 
 </html>
