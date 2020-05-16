@@ -1,4 +1,18 @@
-@import url(fontawesome-all.min.css);
 header span {
     height: 20px;
+}
+
+.carousel-caption.nightclub {
+    color: black;
+    text-shadow: 0 0 4px #DF691A;
+    font-size: 20px;
+}
+
+.carousel-caption.daytime {
+    text-shadow: 0 0 4px #000000;
+}
+
+.caption-top {
+    bottom: auto;
+    top: 20px;
 }

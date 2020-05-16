@@ -18,11 +18,12 @@
     <link rel="apple-touch-icon-precomposed" href="https://hotchicks.lakey.net/images/chicken-57-196468.png">
 
     <link rel="icon" href="images/chicken-32-196468.png" sizes="32x32">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha384-R/oa7KS0iDoHwdh4Gyl3/fU7pgvSCt7oyuQ79pkw+e+bMWD9dzJJa+Zqd+XJS0AD" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="apple-touch-icon-precomposed" href="images/chicken-152-196468.png">
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 </head>
 
 <body>
@@ -49,22 +50,39 @@
                 <ol class="carousel-indicators">
                     <li data-target="#camCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#camCarousel" data-slide-to="1"></li>
+                    <li data-target="#camCarousel" data-slide-to="2"></li>
+                    <li data-target="#camCarousel" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <div class="carousel-caption caption-top d-none d-md-block daytime">
+                            <h1>Outside Coop</h1>
+                            <p>Watch chickens eat. Swipe for the Inside Cam where all the magic happens.</p>
+                        </div>
+                        <img class="d-block w-100" src="https://hotchicks.lakey.net/outdoor/?action=stream" alt="" />
+                    </div>
+                    <div class="carousel-item">
                         <img class="d-block w-100" src="https://hotchicks.lakey.net/video/?action=stream" alt="" />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Inside Coop</h5>
+                        <div class="carousel-caption d-none d-md-block nightclub">
+                            <h1>Inside Coop</h1>
                             <p>See HOT CHICK OVULATION inside the coop with NIGHTVISION!</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="https://hotchicks.lakey.net/outdoor/?action=stream" alt="" />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Outside Coop</h5>
-                            <p>Watch chickens eat. Inside is where all the magic happens.</p>
+                    <div class="carousel-item ">
+                        <div class="carousel-caption d-none d-md-block daytime">
+                            <h1>The Cam</h1>
+                            <p>Raspberry Pi 4b, 3d printed case for cam & circuitry</p>
                         </div>
+                        <img class="d-block w-100" src="/images/printed-pi-case.jpg" alt="Raspberry Pi 4b, 3d printed case for cam & circuitry" />
                     </div>
+                    <div class="carousel-item ">
+                        <div class="carousel-caption d-none d-md-block daytime">
+                            <h1>The Cam (side-view)</h1>
+                            <p>30mm fan sandwiched between the case & the camera, to keep things coooool.</p>
+                        </div>
+                        <img class="d-block w-100" src="/images/printed-pi-case-side.jpg" alt="Raspberry Pi 4b, 3d printed case for cam & circuitry" />
+                    </div>
+
                 </div>
                 <a class="carousel-control-prev" href="#camCarousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -78,8 +96,8 @@
         </article>
         <footer class="container">
             <div class="row">
-                <span class="col">&copy; 2020 Jeremy Lakey, Lakey Acres </span>
-                <span class="col">pi temp: <span id="pitemp"></span></span>
+                <span class="col text-left">&copy; 2020 Jeremy Lakey, Lakey Acres </span>
+                <span class="col text-right">pi temp: <span id="pitemp"></span></span>
             </div>
         </footer>
     </main>
