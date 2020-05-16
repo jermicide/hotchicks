@@ -16,3 +16,7 @@ header span {
     bottom: auto;
     top: 20px;
 }
+
+.mobile-button {
+    color: #DF691A;
+}
