@@ -1,5 +1,5 @@
 function updateTime() {
-    $('.date-time').text(new Date().toString());
+    $('.date-time').text(moment().format("ddd, MMM do, h:mm:ss a"));
     setTimeout(updateTime, 1000);
 }
 (function($) {

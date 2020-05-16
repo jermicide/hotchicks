@@ -20,3 +20,12 @@ header span {
 .mobile-button {
     color: #DF691A;
 }
+
+.nav-link {
+    text-transform: capitalize;
+}
+
+footer {
+    color: #DF691a;
+    text-transform: uppercase;
+}
